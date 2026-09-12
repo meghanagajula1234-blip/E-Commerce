@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - ShopEase</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>ShopEase</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="mobiles.html">Mobiles</a></li>
+                <li><a href="electronic.html">Electronics</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="footwear.html">Footwear</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="payment.html" class="active">Payment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Payment Section -->
+    <section class="payment-section">
+        <div class="payment-container">
+
+            <h2>Choose Payment Method</h2>
+
+            <!-- Order Summary -->
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <p>Total Items: <span>3</span></p>
+                <p>Subtotal: <span>₹84,997</span></p>
+                <p>Shipping: <span>₹99</span></p>
+                <hr>
+                <h3>Total Amount: ₹85,096</h3>
+            </div>
+
+            <!-- Payment Form -->
+            <form id="paymentForm">
+
+                <div class="payment-methods">
+                    <label>
+                        <input type="radio" name="payment" value="card" checked>
+                        Credit / Debit Card
+                    </label>
+
+                    <label>
+                        <input type="radio" name="payment" value="upi">
+                        UPI
+                    </label>
+
+                    <label>
+                        <input type="radio" name="payment" value="cod">
+                        Cash On Delivery
+                    </label>
+                </div>
+
+                <!-- Card Details -->
+                <div class="form-group">
+                    <label for="cardName">Card Holder Name</label>
+                    <input
+                        type="text"
+                        id="cardName"
+                        placeholder="Enter card holder name"
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="cardNumber">Card Number</label>
+                    <input
+                        type="text"
+                        id="cardNumber"
+                        maxlength="16"
+                        placeholder="1234 5678 9012 3456"
+                    >
+                </div>
+
+                <div class="row">
+
+                    <div class="form-group">
+                        <label for="expiry">Expiry Date</label>
+                        <input
+                            type="month"
+                            id="expiry"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input
+                            type="password"
+                            id="cvv"
+                            maxlength="3"
+                            placeholder="123"
+                        >
+                    </div>
+
+                </div>
+
+                <!-- UPI Section -->
+                <div class="form-group">
+                    <label for="upiId">UPI ID (Optional)</label>
+                    <input
+                        type="text"
+                        id="upiId"
+                        placeholder="example@upi"
+                    >
+                </div>
+
+                <button type="submit" class="pay-btn">
+                    Pay Now
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!-- Secure Payment Info -->
+    <section class="features">
+        <h2>Why Pay With Us?</h2>
+
+        <div class="feature-container">
+
+            <div class="feature-box">
+                <h3>🔒 Secure Transactions</h3>
+                <p>Your payment information is protected.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>⚡ Fast Processing</h3>
+                <p>Instant order confirmation and processing.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>💯 Trusted Platform</h3>
+                <p>Safe and reliable online shopping experience.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 ShopEase. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

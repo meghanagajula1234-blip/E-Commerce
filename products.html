@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - ShopEase</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>ShopEase</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="mobiles.html">Mobiles</a></li>
+                <li><a href="electronic.html">Electronics</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="footwear.html">Footwear</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="page-banner">
+        <h2>All Products</h2>
+        <p>Browse our complete collection of products.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <h2>Featured Products</h2>
+
+        <div class="product-container">
+
+            <!-- Mobile -->
+            <div class="product-card">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.VhfUeTqSJREETG36IzVsDgHaFA?r=0&pid=Api&h=220&P=0.jpg" alt="iPhone 15">
+                <h3>Apple iPhone 15</h3>
+                <p class="price">₹79,999</p>
+                <button onclick="addToCart('Apple iPhone 15',79999)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Electronics -->
+            <div class="product-card">
+                <img src="https://i.pinimg.com/736x/6d/17/6e/6d176e160604ed8bb0a437cb7a5f26ab.jpg" alt="Laptop">
+                <h3>Gaming Laptop</h3>
+                <p class="price">₹79,999</p>
+                <button onclick="addToCart('Gaming Laptop',79999)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Clothes -->
+            <div class="product-card">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.Rr5XOZalc_D6Taj76Jg_dQHaJ3?r=0&pid=Api&h=220&P=0.jpg" alt="T-Shirt">
+                <h3>Men's Casual T-Shirt</h3>
+                <p class="price">₹799</p>
+                <button onclick="addToCart('Men Casual T-Shirt',799)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Footwear -->
+            <div class="product-card">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.J8PBvLf_GEtUCRs2DmOPZwHaHa?r=0&pid=Api&h=220&P=0.jpg" alt="Running Shoes">
+                <h3>Running Shoes</h3>
+                <p class="price">₹1,999</p>
+                <button onclick="addToCart('Running Shoes',1999)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Smart Watch -->
+            <div class="product-card">
+                <img src="https://tse4.mm.bing.net/th/id/OIP.6P3wRen0_LRdueO_-ZF7hAHaHa?r=0&pid=Api&h=220&P=0.jpg" alt="Smart Watch">
+                <h3>Smart Watch</h3>
+                <p class="price">₹4,999</p>
+                <button onclick="addToCart('Smart Watch',4999)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Hoodie -->
+            <div class="product-card">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.000ZTqVrAz2PGqt_PRw5JgHaHa?r=0&pid=Api&h=220&P=0.jpg" alt="Hoodie">
+                <h3>Stylish Hoodie</h3>
+                <p class="price">₹1,599</p>
+                <button onclick="addToCart('Stylish Hoodie',1599)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Speaker -->
+            <div class="product-card">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.q5hHbxCYwgRNWTr3nPMjzQHaHa?r=0&pid=Api&h=220&P=0.jpg" alt="Speaker">
+                <h3>Bluetooth Speaker</h3>
+                <p class="price">₹1,999</p>
+                <button onclick="addToCart('Bluetooth Speaker',1999)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Boots -->
+            <div class="product-card">
+                <img src="https://up.yimg.com/ib/th/id/OIP.VoXXZWHOcYsMtnjlLJJUFgHaEh?pid=Api&rs=1&c=1&qlt=95&w=188&h=115.jpg" alt="Boots">
+                <h3>Leather Boots</h3>
+                <p class="price">₹3,499</p>
+                <button onclick="addToCart('Leather Boots',3499)">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <p>&copy; 2026 ShopEase. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

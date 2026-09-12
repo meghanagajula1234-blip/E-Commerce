@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footwear - ShopEase</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>ShopEase</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="mobiles.html">Mobiles</a></li>
+                <li><a href="electronic.html">Electronics</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="footwear.html" class="active">Footwear</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section class="page-banner">
+        <h2>Footwear Collection</h2>
+        <p>Explore trendy, comfortable, and stylish footwear.</p>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <h2>Available Footwear</h2>
+
+        <div class="product-container">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="images/footwear/shoes1.jpg" alt="Running Shoes">
+                <h3>Running Shoes</h3>
+                <p class="price">₹1,999</p>
+                <button onclick="addToCart('Running Shoes',1999)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="images/footwear/shoes2.jpg" alt="Sports Shoes">
+                <h3>Sports Shoes</h3>
+                <p class="price">₹2,499</p>
+                <button onclick="addToCart('Sports Shoes',2499)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="images/footwear/sandals.jpg" alt="Sandals">
+                <h3>Casual Sandals</h3>
+                <p class="price">₹999</p>
+                <button onclick="addToCart('Casual Sandals',999)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="images/footwear/heels.jpg" alt="Heels">
+                <h3>Women's Heels</h3>
+                <p class="price">₹1,799</p>
+                <button onclick="addToCart('Women Heels',1799)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="images/footwear/boots.jpg" alt="Boots">
+                <h3>Leather Boots</h3>
+                <p class="price">₹3,499</p>
+                <button onclick="addToCart('Leather Boots',3499)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="images/footwear/slippers.jpg" alt="Slippers">
+                <h3>Comfort Slippers</h3>
+                <p class="price">₹599</p>
+                <button onclick="addToCart('Comfort Slippers',599)">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 ShopEase. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothes - ShopEase</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>ShopEase</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="mobiles.html">Mobiles</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+                <li><a href="footwear.html">Footwear</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="wishlist.html">Wishlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h2>Clothing Collection</h2>
+        <p>Explore the latest fashion trends for Men, Women, and Kids.</p>
+    </section>
+
+    <!-- Clothes Products -->
+    <section class="products-section">
+        <h2>Available Clothes</h2>
+
+        <div class="product-container">
+
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="images/clothes/tshirt.jpg" alt="T-Shirt">
+                <h3>Men's Casual T-Shirt</h3>
+                <p class="price">₹799</p>
+                <button onclick="addToCart('Men Casual T-Shirt',799)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="images/clothes/shirt.jpg" alt="Shirt">
+                <h3>Formal Shirt</h3>
+                <p class="price">₹1,299</p>
+                <button onclick="addToCart('Formal Shirt',1299)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="images/clothes/jeans.jpg" alt="Jeans">
+                <h3>Blue Denim Jeans</h3>
+                <p class="price">₹1,999</p>
+                <button onclick="addToCart('Blue Denim Jeans',1999)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="images/clothes/jacket.jpg" alt="Jacket">
+                <h3>Winter Jacket</h3>
+                <p class="price">₹2,499</p>
+                <button onclick="addToCart('Winter Jacket',2499)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="images/clothes/hoodie.jpg" alt="Hoodie">
+                <h3>Stylish Hoodie</h3>
+                <p class="price">₹1,599</p>
+                <button onclick="addToCart('Stylish Hoodie',1599)">
+                    Add to Cart
+                </button>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="images/clothes/dress.jpg" alt="Dress">
+                <h3>Women's Party Dress</h3>
+                <p class="price">₹2,999</p>
+                <button onclick="addToCart('Women Party Dress',2999)">
+                    Add to Cart
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 ShopEase. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
